@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Local YouTube Search</title>
+    <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <div class="sideBar" id="sideBar">
+        Find YouTube <span class="white-text">videos</span> made <span class="white-text"><br>near you</span>
+      </div>
+
+      <div class="mainSpace">
+        <div class="searchBar" id="searchBar">
+          <form class="searchForm" id="searchForm">
+            <img src="search.png" class="search-img"/>
+            <input type="text" class="query" name="query" placeholder="What are you looking for?" id="query"><br>
+            <img src="placeholder.png" class="radius-img"/>
+            <input type="text" class="radius" name="radius" placeholder="Enter search radius in km." id="radius">
+            <button type="submit" name="Search" class="searchButton" id="searchButton">Search</button>
+          </form>
+        </div>
+        <div class="results-header hidden" id="resultsHeader">
+          Please fill in all fields
+        </div>
+        <div class="results" id="results"></div>
+      </div>
+      </div>
+
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+<!--
+
+title
+
+div
+
+
+<div class="videoCard">
+  <div class="Title">YtTitle</div>
+  <a href="#" id="videoLink"><img src="" alt=""/></a>
+</div>
+
+
+ -->

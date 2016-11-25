@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.sideBar {
+  float: left;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  width: 190px;
+  height: 1100px;
+  color: red;
+  line-height: 35px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.white-text {
+  color: white;
+}
+
+.mainSpace {
+  float: left;
+  max-width: 75vw;
+}
+
+.searchBar {
+  background-color: red;
+  width:100vw;
+  position: absolute;
+  height: 85px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.query {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  color: white;
+  border: 0;
+  clear: right;
+  width: 500px;
+  background-color: red;
+}
+
+.search-img {
+  width: 17px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+.radius {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  color: white;
+  border: 0;
+  width: 500px;
+  background-color: red;
+}
+
+.radius-img {
+  width: 17px;
+}
+
+.searchButton {
+  border: 0px;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  top: 0px;
+  font-size: 65px;
+  color: white;
+  position: absolute;
+  left: 680px;
+  transition: 1000ms ease-out;
+  letter-spacing: -2px;
+  height: 80px;
+}
+
+.searchButton:hover {
+  cursor: pointer;
+  letter-spacing: 10px;
+}
+
+.results-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #616161;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.videoCard {
+  position: relative;
+  float: left;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.title {
+  width: 288px;
+  height: 40px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  background-color:
+}
+.hidden {
+  display: none;
+}
+
+.results {
+  margin-left: 20px;
+}
